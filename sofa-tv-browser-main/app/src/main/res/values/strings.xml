@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sofa</string>
+    <string name="about_text">A lightweight, private web browser for Android TV and Google TV.\n\nSofa has no accounts, no analytics, no ads and no servers of its own. Your history, bookmarks and settings stay on this device. The only connections it makes are to the sites you visit and, if you ask it to, your search engine\'s suggestions and the blocklist address you choose.</string>
+    <string name="version">Version %s</string>
+
+    <!-- Home -->
+    <string name="search_hint">Search or type a URL</string>
+    <string name="voice_search">Voice search</string>
+    <string name="voice_prompt">Say a search or a site</string>
+    <string name="voice_search_sub">Mic buttons on the home and search screens. On Android 13 and newer, turning it off also gives back the microphone permission when Sofa closes.</string>
+    <string name="voice_unavailable">No voice search is available on this device</string>
+    <string name="voice_listening">Listening… say a search or a site</string>
+    <string name="voice_no_match">Didn\'t catch that. Press the mic to try again.</string>
+    <string name="voice_network">Voice search needs an internet connection</string>
+    <string name="voice_needs_mic">Voice search needs the microphone</string>
+    <string name="voice_busy">Voice search is busy. Try again in a moment.</string>
+    <string name="voice_audio">The microphone isn\'t working</string>
+    <string name="voice_failed">Voice search didn\'t work. Try again.</string>
+    <string name="private_mode">Private browsing</string>
+    <string name="private_mode_info">Private browsing uses a separate profile. Pages you visit aren\'t added to history, and their cookies, storage and cache are erased when you leave private browsing or close Sofa. Your normal session is untouched.</string>
+    <string name="private_mode_info_fallback">Pages you visit aren\'t added to history. This device\'s WebView is too old for a separate private profile, so Sofa will erase ALL cookies and site data when you leave private browsing or close Sofa.</string>
+    <string name="private_mode_left">Private browsing ended; its data was erased</string>
+    <string name="ad_blocker">Ad blocker</string>
+    <string name="adblock_on_short">Ad blocking on</string>
+    <string name="adblock_off_short">Ad blocking off</string>
+    <string name="private_mode_on">Private browsing on</string>
+    <string name="private_mode_off">Private browsing off</string>
+    <string name="adblock_on">Ad and tracker blocking is on</string>
+    <string name="adblock_off">Ad and tracker blocking is off</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="exit_sofa">Exit Sofa</string>
+    <string name="quick_access">Quick access</string>
+    <string name="most_visited">Most visited</string>
+    <string name="add_site">Add site</string>
+    <string name="back_again_to_exit">Press Back again to exit</string>
+    <string name="open">Open</string>
+    <string name="move">Move</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="tile_name">Name</string>
+    <string name="tile_address">Address</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="search_engine">Search engine</string>
+    <string name="custom">Custom…</string>
+
+    <!-- Lists -->
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete all</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="history_empty">No history yet</string>
+    <string name="bookmarks_empty">No bookmarks yet. Add one from the menu while browsing.</string>
+    <string name="confirm_clear_history">Delete all history?</string>
+    <string name="confirm_clear_bookmarks">Delete all bookmarks?</string>
+
+    <!-- Browse -->
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="reload">Reload</string>
+    <string name="stop">Stop</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="bookmarked">Bookmarked</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="bookmark_removed">Bookmark removed</string>
+    <string name="pin_to_home">Add to home</string>
+    <string name="pinned">Added to Quick access</string>
+    <string name="adblock_site">Ad block</string>
+    <string name="adblock_site_on">Ad block: on here</string>
+    <string name="adblock_site_off">Ad block: off here</string>
+    <plurals name="adblock_site_on_count">
+        <item quantity="one">Ad block: on here · %d blocked</item>
+        <item quantity="other">Ad block: on here · %d blocked</item>
+    </plurals>
+    <string name="adblock_site_disabled">Ad blocking turned off for this site</string>
+    <string name="adblock_site_enabled">Ad blocking turned on for this site</string>
+    <string name="adblock_globally_off">Ad blocking is turned off in Settings</string>
+    <string name="watch">Watch</string>
+    <string name="play_in">Play in…</string>
+    <string name="handover_in_page">This video can\'t be sent to another player. Sofa will play it itself.</string>
+    <string name="handover_drm">This video is protected, so only Sofa\'s player can show it.</string>
+    <string name="player_gone">That player isn\'t installed any more. Choose another one.</string>
+    <string name="no_player">No other video player is installed.</string>
+    <string name="no_video">No video found on this page.</string>
+    <string name="find_in_page">Find in page</string>
+    <string name="find_hint">Find in page</string>
+    <string name="find_previous">Previous match</string>
+    <string name="find_next">Next match</string>
+    <string name="find_close">Close find</string>
+    <string name="find_none">No matches</string>
+    <string name="find_count">%1$d of %2$d</string>
+    <string name="user_agent">Browse as</string>
+    <string name="custom_user_agent">Custom user agent</string>
+    <string name="scroll_mode">Scroll mode</string>
+    <string name="scroll_mode_hint">Scroll mode · ↑↓←→ scroll · OK or Back to exit</string>
+    <string name="pointer">Pointer</string>
+    <string name="pointer_on">Pointer: on here</string>
+    <string name="pointer_off">D-pad keys: on here</string>
+    <string name="pointer_off_toast">Keys now go straight to this site. Use the menu to bring the pointer back.</string>
+    <string name="pointer_on_toast">Pointer is back for this site</string>
+    <string name="zoom_in">Zoom in</string>
+    <string name="zoom_out">Zoom out</string>
+    <string name="percent">%d%%</string>
+    <string name="link_blocked">Sofa doesn\'t open other apps from web pages</string>
+    <string name="popup_blocked">Pop-up blocked</string>
+    <string name="popup_blocked_allow">Blocked a pop-up. To open it, use Allow once in the menu.</string>
+    <string name="redirect_blocked_allow">Blocked a redirect. To follow it, use Allow once in the menu.</string>
+    <string name="allow_once">Allow once</string>
+    <string name="ssl_title">Your connection is not private</string>
+    <string name="ssl_message">The security certificate of %s can\'t be trusted. Someone may be trying to steal your information.</string>
+    <string name="ssl_back">Back to safety</string>
+    <string name="ssl_proceed">Proceed (unsafe)</string>
+    <string name="drm_title">Protected content</string>
+    <string name="drm_message">%s wants to play DRM-protected media. This uses the device\'s content protection system (Widevine), which can give the site a device-specific identifier. On most TVs this video is limited to standard definition.</string>
+    <string name="drm_setting">Protected content (DRM)</string>
+    <string name="drm_setting_sub">Some streaming sites need protected playback. On most TVs it plays in standard definition only, and the site can see an ID specific to your TV.</string>
+    <string name="drm_saved">Saved. Pages already open will use it after a reload.</string>
+    <string-array name="drm_modes">
+        <item>Ask for each site</item>
+        <item>Allow on all sites</item>
+        <item>Block on all sites</item>
+    </string-array>
+    <string-array name="drm_mode_notes">
+        <item>Sofa asks the first time a site wants it, then remembers your answer.</item>
+        <item>Protected video can play anywhere, without asking.</item>
+        <item>Protected video won\'t play. Everything else is unaffected and keeps its full quality.</item>
+    </string-array>
+    <string name="allow">Allow</string>
+    <string name="block">Block</string>
+    <string name="download">Download</string>
+    <string name="download_title">Download file?</string>
+    <string name="download_message">%1$s\nfrom %2$s</string>
+    <string name="download_started">Downloading %s</string>
+    <string name="download_failed">Download failed: %s</string>
+    <string name="download_unsupported">This kind of download isn\'t supported</string>
+
+    <!-- Video -->
+    <string name="rewind_10">Back 10 seconds</string>
+    <string name="forward_10">Forward 10 seconds</string>
+    <string name="play_pause">Play or pause</string>
+    <string name="exit_fullscreen">Exit fullscreen</string>
+    <string name="live">LIVE</string>
+    <string name="video_info">Video info</string>
+    <string name="picture_in_picture">Picture in picture</string>
+    <string name="continue_from">Continue from %s?</string>
+    <string name="subtitles">Subtitles</string>
+    <string name="video_info_waiting">Reading video info…</string>
+    <string name="video_info_size">Video: %1$d × %2$d</string>
+    <string name="video_info_frames">Frames shown: %1$d, dropped: %2$d</string>
+    <string name="video_info_hardware">Hardware decoding available for: %s</string>
+    <string name="video_info_software">Software only: %s</string>
+    <string name="video_info_none">none of H.264, VP9, AV1, HEVC</string>
+    <string name="video_info_note">An indication from the TV, not proof of what this video uses.</string>
+    <string name="video_info_display">Display: window %1$d × %2$d, panel %3$d × %4$d</string>
+    <string name="video_info_rate">Frame rate: %s per second</string>
+    <string name="video_info_rate_waiting">Frame rate: measuring…</string>
+    <string name="video_info_rate_unknown">Frame rate: unknown</string>
+    <string name="video_info_tv_rate">TV refresh rate: %1$s Hz (also %2$s Hz at this resolution)</string>
+    <string name="video_info_tv_rate_only">TV refresh rate: %s Hz, the only one at this resolution</string>
+    <string name="video_info_tv_rate_off">Frame rate matching is turned off in the TV\'s settings (Match content frame rate).</string>
+    <string name="video_info_page">Page: screen %1$d × %2$d, pixel ratio %3$s, viewport %4$d, video width %5$d (CSS px)</string>
+
+    <!-- Settings -->
+    <string name="section_browsing">Browsing</string>
+    <string name="section_privacy">Privacy and security</string>
+    <string name="section_about">About</string>
+    <string name="search_suggestions">Search suggestions</string>
+    <string name="search_suggestions_sub">Sends what you type to your search engine as you type</string>
+    <string name="search_suggestions_none">Your search engine doesn\'t offer suggestions Sofa can use</string>
+    <string name="custom_search_engine" formatted="false">Search URL, with %s for the query</string>
+    <string name="custom_search_invalid" formatted="false">The address must start with https:// and contain %s</string>
+    <string name="cursor_speed">Pointer speed</string>
+    <string name="text_size">Text size</string>
+    <string name="back_goes_back">Back key returns to the previous page</string>
+    <string name="back_goes_back_sub">When off, Back opens the menu, which has its own Back button</string>
+    <string name="javascript">JavaScript</string>
+    <string name="javascript_sub">Many sites don\'t work without it</string>
+    <string name="autoplay">Autoplay media</string>
+    <string name="autoplay_sub">Let videos and sound start without a click</string>
+    <string name="match_frame_rate">Match frame rate (experimental)</string>
+    <string name="match_frame_rate_sub">Not proven on every TV yet. In fullscreen, the TV switches to the video\'s frame rate, such as 24 or 50 per second, for smoother motion. The screen goes dark for a moment while it switches. Not for videos under 5 minutes.</string>
+    <string name="dark_pages">Dark web pages</string>
+    <string name="dark_pages_sub">Darkens sites that don\'t have a dark theme</string>
+    <string name="most_visited_setting">Most visited on home</string>
+    <string name="most_visited_setting_sub">Worked out on this device from your history</string>
+    <string name="adblock_setting">Block ads and trackers</string>
+    <string name="adblock_setting_sub">Matched on this device against a domain list</string>
+    <string name="blocklist">Blocklist</string>
+    <plurals name="blocklist_sub">
+        <item quantity="one">%d domain</item>
+        <item quantity="other">%d domains</item>
+    </plurals>
+    <plurals name="blocklist_update_message">
+        <item quantity="one">%d domain is blocked. Download a hosts file or Adblock Plus list (domain rules are used) from:</item>
+        <item quantity="other">%d domains are blocked. Download a hosts file or Adblock Plus list (domain rules are used) from:</item>
+    </plurals>
+    <plurals name="blocklist_updated">
+        <item quantity="one">Blocklist updated: %d domain</item>
+        <item quantity="other">Blocklist updated: %d domains</item>
+    </plurals>
+    <string name="update">Update</string>
+    <string name="reset_bundled">Use built-in</string>
+    <string name="https_only">Only https:// addresses are allowed</string>
+    <string name="blocklist_updating">Downloading blocklist…</string>
+    <string name="blocklist_failed">Blocklist update failed: %s</string>
+    <string name="cookies">Cookies</string>
+    <string name="cookies_sub">Needed to stay signed in to sites</string>
+    <string name="cookies_confirm">Without cookies you\'ll be signed out of sites and won\'t be able to sign in. Turn cookies off?</string>
+    <string name="turn_off">Turn off</string>
+    <string name="keep_on">Keep on</string>
+    <string name="third_party_cookies">Block third-party cookies</string>
+    <string name="third_party_cookies_sub">Stops embedded content from tracking you across sites</string>
+    <string name="gpc">Global Privacy Control</string>
+    <string name="gpc_sub">Asks sites not to sell or share your data. Off by default: few browsers send it, so it can make you easier to recognise. Do Not Track is never sent.</string>
+    <string name="safe_browsing">Google Safe Browsing</string>
+    <string name="safe_browsing_sub">Checks pages against Google\'s list of dangerous sites; shares partial page-address hashes with Google</string>
+    <string name="keep_history">Keep history for</string>
+    <string name="keep_history_sub">Pages you visit stay in History, on this device, for this long. Older ones are removed. Never: nothing is saved.</string>
+    <string-array name="history_periods">
+        <item>7 days</item>
+        <item>30 days</item>
+        <item>90 days</item>
+        <item>Always</item>
+        <item>Never</item>
+    </string-array>
+    <string name="clear_on_exit">Clear browsing data on exit</string>
+    <string name="clear_on_exit_sub">Cookies, site storage, cache, history and where you stopped videos</string>
+    <string name="clear_now">Clear browsing data now</string>
+    <string name="clear_now_confirm">Delete cookies, site storage, cache, history, saved site icons, where you stopped videos and your protected-content answers? Bookmarks and Quick access are kept.</string>
+    <string name="clear">Clear</string>
+    <string name="cleared">Browsing data cleared</string>
+    <string name="about">About Sofa</string>
+    <string name="about_engine">Web engine: Chrome %s</string>
+    <string name="about_video">Video is decoded by the web engine, with the TV\'s hardware where the format allows. On 4K TVs the engine shows it through Sofa\'s HD window, and the TV upscales it.</string>
+    <string name="old_webview_title">Your TV\'s web engine is out of date</string>
+    <string name="old_webview_message">Sofa shows pages with the web engine that comes with your TV (Android System WebView). This one is quite old. Sofa can\'t update it, but your TV can: check its app store, or the TV maker\'s updates. Older versions may be missing security fixes, and some sites may not work properly. You can keep browsing in the meantime.</string>
+    <string name="keep_browsing">Keep browsing</string>
+    <string name="how_to_update">How to update</string>
+    <string name="how_to_update_message">Open the app store on your TV and look for \"Android System WebView\", then choose Update. If your TV has no app store, updates come with the TV\'s system updates, so check its settings or the maker\'s website.</string>
+
+    <string-array name="user_agents">
+        <item>Desktop</item>
+        <item>Mobile</item>
+        <item>WebView default</item>
+        <item>iPad</item>
+        <item>Smart TV</item>
+        <item>Custom…</item>
+    </string-array>
+    <string-array name="cursor_speeds">
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+    </string-array>
+</resources>

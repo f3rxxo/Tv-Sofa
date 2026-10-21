@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Updates: standard build only, and only for copies that no app store updates. Manual only: no automatic checks. -->
+    <string name="section_updates">Updates</string>
+    <string name="check_updates_now">Check for updates now</string>
+    <string name="check_updates_now_sub">Looks on Sofa\'s GitHub page only when you choose this. Nothing installs without your confirmation.</string>
+    <string name="about_updates">Sofa connects to github.com only when you choose Check for updates now.</string>
+</resources>
